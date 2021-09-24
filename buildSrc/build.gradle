@@ -22,5 +22,6 @@ repositories {
 dependencies {
     implementation gradleApi()
     implementation localGroovy()
-    implementation "com.google.guava:guava:17.0"
+    implementation "com.google.guava:guava:23.0"
+//    implementation "com.google.guava:guava:28.2-android"
 }

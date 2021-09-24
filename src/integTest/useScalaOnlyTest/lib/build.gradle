@@ -28,11 +28,11 @@ android {
 }
 
 dependencies {
-    implementation "com.android.support:multidex:1.0.2"
+    implementation "androidx.multidex:multidex:2.0.0"
     androidTestImplementation "junit:junit:4.12"
     androidTestImplementation "org.scala-lang:scala-library:$scalaLibraryVersion"
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
-    androidTestImplementation 'com.android.support.test:rules:1.0.2'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test:rules:1.2.0'
 
     // to break 65535 method limitation
     //androidTestCompile "org.scalaz:scalaz-core_$scalaDependencyVersion:7.0.6"

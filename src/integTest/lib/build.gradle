@@ -44,10 +44,10 @@ android {
 dependencies {
     implementation "org.scala-lang:scala-library:$scalaLibraryVersion"
     //implementation "org.scalaz:scalaz-core_$scalaDependencyVersion:7.0.6"
-    implementation "com.android.support:multidex:1.0.2"
+    implementation "androidx.multidex:multidex:2.0.0"
     androidTestImplementation "junit:junit:4.12"
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
-    androidTestImplementation 'com.android.support.test:rules:1.0.2'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test:rules:1.2.0'
 }
 
 tasks.withType(ScalaCompile) {

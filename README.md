@@ -48,7 +48,7 @@ buildscript {
     }   
 
     dependencies {
-        classpath "com.android.tools.build:gradle:3.2.1"
+        classpath "com.android.tools.build:gradle:3.6.4"
         classpath "com.wire.gradle:gradle-android-scala-plugin:1.6"
     }
 }
@@ -270,7 +270,7 @@ buildscript {
     }
 
     dependencies {
-        classpath "com.android.tools.build:gradle:3.2.1"
+        classpath "com.android.tools.build:gradle:3.6.4"
         classpath "com.wire.gradle:gradle-android-scala-plugin:1.6"
     }
 }

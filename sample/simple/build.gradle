@@ -5,7 +5,7 @@ buildscript {
     }
 
     dependencies {
-        classpath "com.android.tools.build:gradle:3.2.1"
+        classpath "com.android.tools.build:gradle:3.6.4"
         classpath "com.wire.gradle:gradle-android-scala-plugin:$androidScalaPluginVersion"
     }
 }
@@ -19,11 +19,11 @@ apply plugin: "com.android.application"
 apply plugin: "jp.leafytree.android-scala"
 
 android {
-    compileSdkVersion "android-22"
-    buildToolsVersion "22.0.1"
+    compileSdkVersion "android-29"
+    buildToolsVersion "29.0.3"
 
     defaultConfig {
-        targetSdkVersion 22
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
@@ -49,5 +49,5 @@ android {
 
 dependencies {
     implementation "org.scala-lang:scala-library:2.11.12"
-    implementation "com.android.support:multidex:1.0.2"
+    implementation "androidx.multidex:multidex:2.0.0"
 }
